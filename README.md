@@ -30,4 +30,4 @@ We are using boilerplates to reduce the time of project initialization. This is 
   1. Сlone this repo.
   2. Setup you origin.
   3. `yarn start`
-  4. Here you are :tada: :tada: :tada:
+  4. Here your are :tada: :tada: :tada:
