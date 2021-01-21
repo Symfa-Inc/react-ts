@@ -15,5 +15,5 @@ export const authReducer = (state: AuthState = initialState, action: Action): Au
   const states = {
     ...reducer(login, state, action, { dataMask: 'user' }),
   };
-  return states[action.type] || state;
+  return states[action.type] ? states[action.type]() : state;
 };
